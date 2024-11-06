@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* General container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .container p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  /* Input styling */
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error message */
+  .error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffe6e6;
+    color: #b30000;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Structured response box */
+  .structured-response {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    color: #004d99;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .structured-response h3 {
+    font-size: 18px;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .structured-response ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .structured-response li {
+    margin-bottom: 10px;
+  }
+  
+  .structured-response strong {
+    font-weight: bold;
+  }
+  
+  /* Extracted text box */
+  .extracted-text {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    color: #004d99;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .extracted-text h3 {
+    font-size: 18px;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .extracted-text pre {
+    white-space: pre-wrap;
+    font-size: 14px;
+    color: #333;
+  }
+  
