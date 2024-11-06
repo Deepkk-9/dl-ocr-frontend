@@ -34,7 +34,7 @@ export default function Home() {
     setStructuredResponse(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/process-image', formData, {
+      const response = await axios.post('https://deepkk-9-dlocr-backend.onrender.com/process-image', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
